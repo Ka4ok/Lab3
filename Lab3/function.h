@@ -1,1 +1,1 @@
-void hello_world();
+double RandomNumber();

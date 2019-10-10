@@ -1,6 +1,14 @@
 #include <iostream>
-void hello_world()
+double RandomNumber()
 {
-	std::cout<<"Hello, world!!!"<<std::endl;
-	std::cout<<"check work of commit"<<std::endl;
+	std::cout<<"check into random"<<std::endl;
+	double x;
+	x= rand()%100;
+	std::cout<<"1 random number= "<<x<<std::endl;
+	x= rand()%100;
+	std::cout<<"2 random number= "<<x<<std::endl;
+	srand(1);	
+	x= rand()%100;
+	std::cout<<"1 again random number= "<<x<<std::endl;
+	return x;
 }
